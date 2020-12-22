@@ -1,0 +1,23 @@
+<html lang="pt-br">
+    <head>
+        <meta charset="UTF-8">
+        <title>Teste</title>
+        <link rel="stylesheet" href="./css/index.css"> 
+    </head>
+    <body>
+        <div id="fistDiv">
+            <label for="text">Type an text</label>
+            <textarea onkeydown="inputKeyPressed()" id="fistText" type="text"></textarea>
+        </div>
+        <label id="count" for="text"></label>
+        <div id="centerDiv">
+            <p id="countCharects"></p>
+        </div>
+        
+        <div id="secondDiv">  
+            <label for="text">This is a mirror</label>
+            <textarea readonly="true" onkeydown="inputKeyPressed()" id="secondText" type="text"></textarea>
+        </div>
+        <script src="./javascript/index.js"></script>
+    </body>
+</html>
